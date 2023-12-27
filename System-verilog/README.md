@@ -1,6 +1,3 @@
-# HDL-Codes
-A Repo of Verilog and System Verilog Codes for Common Circuits with Testbench and simulations for Quick and Easy Referencing
-
 # System-Verilog-Codes
 System Verilog Files from my class on "Computer Aided Digital Design".
 These Codes are for a variety of topics and Testbench Codes are also included.
@@ -18,4 +15,3 @@ initial begin
   #10000 $finish;
 end
 ```
-# Verilog Codes

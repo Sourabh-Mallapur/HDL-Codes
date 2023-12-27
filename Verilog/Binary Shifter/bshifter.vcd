@@ -1,0 +1,48 @@
+$date
+	Thu Aug 24 18:24:58 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module bshifter_tb $end
+$var wire 8 ! y [7:0] $end
+$var reg 8 " a [7:0] $end
+$var reg 3 # amt [2:0] $end
+$scope module uut $end
+$var wire 8 $ a [7:0] $end
+$var wire 3 % amt [2:0] $end
+$var reg 8 & y [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11010110 &
+b0 %
+b11010110 $
+b0 #
+b11010110 "
+b11010110 !
+$end
+#10000
+b1101011 !
+b1101011 &
+b1 #
+b1 %
+#20000
+b11011010 !
+b11011010 &
+b11 #
+b11 %
+#30000
+b10101101 !
+b10101101 &
+b111 #
+b111 %
+#40000
