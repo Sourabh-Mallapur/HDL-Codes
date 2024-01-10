@@ -29,7 +29,7 @@ add the following code to tesbench file (if not added)
 ```
 initial begin
   $dumpfile("dump.vcd");
-  $dumpvars;
+  $dumpvars(0, <top_module_in_testbench>);
   #10000 $finish;
 end
 ```
